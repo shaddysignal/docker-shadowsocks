@@ -20,6 +20,6 @@ or
 ```
 for client mode.
 
-Also there enviroment variable that can be passed to either modes for simple-obfs plugin. Default for server is "obfs=http", default for client is "obfs=http;obfs-host=github.com". About what can be set as plugin options can be readin documentation.
+Also there enviroment variable that can be passed to either modes for simple-obfs plugin. Default for server is "obfs=http", default for client is "obfs=http;obfs-host=github.com". About what can be set as plugin options can be read in documentation.
 
 For more command line options, refer to the [shadowsocks documentation](https://github.com/shadowsocks/shadowsocks/tree/master) and [shadowsocks simple-obfs plugin documentation](https://github.com/shadowsocks/simple-obfs)

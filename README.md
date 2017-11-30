@@ -1,6 +1,8 @@
 docker-shadowsocks
 ==================
 
+[![Docker Pulls](https://img.shields.io/docker/pulls/shaddysignal/docker-shadowsocks.svg)](https://hub.docker.com/r/shaddysignal/docker-shadowsocks/)
+
 This Dockerfile builds an image with the Python implementation of [shadowsocks](https://github.com/shadowsocks/shadowsocks). Based on python:alpine image.
 
 Quick Start

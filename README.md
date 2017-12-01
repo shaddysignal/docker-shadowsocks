@@ -16,10 +16,10 @@ You can configure the service to run on a port of your choice. Just make sure th
 
 or
 ```bash
-   docker run -d -p 1984:1984 --name socks-client --env mode=client shaddysignal/docker-shadowsocks -s server_ip -p server_port -l 1984 -k $SSPASSWORD -m chacha20-ietf-poly1305
+   docker run -d -p 1984:1984 --name socks-client --env mode=client shaddysignal/docker-shadowsocks -s server_ip -p server_port -b 0.0.0.0 -l 1984 -k $SSPASSWORD -m chacha20-ietf-poly1305
 ```
 for client mode.
 
-Also there enviroment variable that can be passed to either modes for simple-obfs plugin. Default for server is "obfs=http", default for client is "obfs=http;obfs-host=github.com". About what can be set as plugin options can be read in documentation.
+Also there enviroment variable `plugin_opts` that can be passed to either modes for simple-obfs plugin. Default for server is "obfs=http", default for client is "obfs=http;obfs-host=github.com". About what can be set as plugin options can be read in documentation.
 
 For more command line options, refer to the [shadowsocks documentation](https://github.com/shadowsocks/shadowsocks/tree/master) and [shadowsocks simple-obfs plugin documentation](https://github.com/shadowsocks/simple-obfs)
